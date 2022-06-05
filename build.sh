@@ -1,0 +1,2 @@
+podman build --arch=amd64 -t rg.nl-ams.scw.cloud/aviancarrier/opa-dashboard:latpodman push rg.nl-ams.scw.cloud/aviancarrier/opa-dashboard:latest
+ 2519  kubectl -n opa-dashboard rollout restart deployment opa-dashboard
